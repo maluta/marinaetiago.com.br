@@ -6,7 +6,7 @@ Esse repositório é um registro do site que utilizei no meu casamento em 2016. 
 
 Inicialmente o site foi hospedado no Heroku mas dado as mudanças de que acontecerem em 2021/22 decidi organizar o repositório e salvar para fins históricos esse site aqui no GH. 
 
-Para acessar o site: [marinaetiago.com.br](https://marinaetiago.com.br)
+Para acessar o site: [marinaetiago.com.br](https://www.marinaetiago.com.br)
 
 > Importante: esse código é antigo e provavelmente com partes bem desataulizadas, não recomendo utilizar em produção. Se você estiver procurando um site para seu casamento, recomendo avaliar arquiteturas mais simples. 
 
