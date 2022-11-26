@@ -13,5 +13,15 @@ Para acessar o site: [marinaetiago.com.br](https://marinaetiago.com.br)
 Por último, dado que esse site foi baseado em outra base de código, clique aqui para ver o outro [README](https://github.com/maluta/marinaetiago.com.br/blob/main/README-orig.md) que utilizei na época
 
 
+### Para rodar
+
+git clone ...
+cd ...
+npm install
+node server.js
+
+
+
+
 
 
