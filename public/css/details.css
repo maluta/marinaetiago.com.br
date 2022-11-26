@@ -1,0 +1,29 @@
+.details-group .l-grid-u {
+    display: block;
+}
+address.details-content {
+    text-align: center;
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+    .details-group {
+        margin: 1em -1em;
+    }
+    .details-group .l-grid-u {
+        display: inline-block;
+        *display: inline;
+        width: 50%;
+        vertical-align: top;
+    }
+    .details-content {
+        margin: 0;
+        padding: 0 1em;
+    }
+    .details-content li {
+        margin-left: 2.5em;
+    }
+    address.details-content {
+        text-align: left;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name"   : "leslie-eric.us",
+    "version": "1.8.0",
+    "private": true,
+
+    "dependencies": {
+        "normalize-css"   : "~2.1.2"
+    }
+}

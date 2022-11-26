@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /guests/
+Disallow: /invitations/
+Disallow: /rsvp/

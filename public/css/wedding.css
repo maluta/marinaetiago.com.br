@@ -1,0 +1,159 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 62%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    background: #fff;
+}
+
+.l-wrap {
+    position: absolute;
+    top: 62%;
+    width: 100%;
+    min-height: 38%;
+    z-index: 2;
+    padding-bottom: 2em;
+    -webkit-box-shadow: 0 -1px 1px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0 -1px 1px rgba(0,0,0, 0.10);
+    box-shadow: 0 -1px 1px rgba(0,0,0, 0.10);
+}
+
+.ann {
+    margin: 1.5em 0;
+}
+
+.cal {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #e5e5df;
+    border-left: 0;
+    border-right: 0;
+}
+.cal-day {
+    width: 80%;
+    white-space: normal;
+    position: relative;
+    padding-bottom: 0.5em;
+}
+.cal-day-primary {
+    border: 0px solid #e5e5df;
+    border-top: 0;
+    border-bottom: 0;
+}
+.cal-day-header {
+    margin: 0.5em 0;
+    text-align: right;
+    font-family: "proxima-nova" sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.0;
+}
+.cal-day-date {
+    margin-left: 0.5em;
+}
+
+#cal-day-circle {
+    right: -0.25em;
+}
+
+.travel-nav {
+    list-style: none;
+    margin: 1.5em auto;
+    padding: 0;
+}
+.travel-nav-item {
+    margin: 0.5em auto;
+    width: 100%;
+}
+.travel-nav .button {
+    display: block;
+}
+
+.anchored-header {
+    margin-top: -1em;
+    padding-top: 2.4em;
+}
+
+/* 480px */
+@media screen and (min-width: 30em) {
+    .cal-day {
+        width: 50%;
+    }
+
+    .travel-nav {
+        margin-left: -0.5em;
+        margin-right: -0.5em;
+    }
+    .travel-nav-item {
+        margin: 0.5em auto;
+        width: 50%;
+    }
+    .travel-nav .button {
+        margin: 0 0.5em;
+    }
+}
+
+/* 568px */
+@media screen and (min-width: 35.5em) {
+
+}
+
+/* 576px */
+@media screen and (min-width: 36em) {
+    #cal-day-circle {
+        right: 0.5em;
+    }
+
+    .travel-nav {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+    .travel-nav .button {
+        margin: 0 1em;
+    }
+
+    .anchored-header {
+        margin-top: -1em;
+        padding-top: 2em;
+    }
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+    .cal {
+        overflow-x: auto;
+    }
+    .cal-day {
+        width: 33.3333%;
+    }
+
+    .anchored-header {
+        margin-top: -1.6667em;
+        padding-top: 2.6667em;
+    }
+}
+
+/* 770px */
+@media screen and (min-width: 48.125em) {
+    .cal {
+        border: 1px solid #e5e5df;
+    }
+}
+
+/* 1024px */
+@media screen and (min-width: 64em) {
+
+}
